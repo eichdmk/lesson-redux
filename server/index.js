@@ -26,6 +26,7 @@ app.get('/users', async (req, res) => {
     }
 })
 
+console.log('ФУНКЦИЯ ЛОГИНА')
 
 app.post('/users', async (req, res) => {
     try {
