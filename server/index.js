@@ -27,6 +27,10 @@ app.get('/users', async (req, res) => {
 })
 
 console.log('ФУНКЦИЯ ЛОГИНА')
+console.log('ФУНКЦИЯ УДАЛЕНИЯ ПОЛЬЗОВАТЕЛЯ')
+console.log('ФУНКЦИЯ ДОБАВЛЕНИЯ ПОЛЬЗОВАТЕЛЯ')
+console.log('ФУНКЦИЯ ЧТЕНИЯ ПОЛЬЗОВАТЕЛЯ')
+console.log('ФУНКЦИЯ ИЗМЕНЕНИЯ ПОЛЬЗОВАТЕЛЯ')
 
 app.post('/users', async (req, res) => {
     try {
